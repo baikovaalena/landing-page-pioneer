@@ -1,0 +1,55 @@
+@import url('variables.css');
+body{
+    margin-left:130px;
+    margin-right: 130px;
+    max-width: 1440px;
+}
+
+.header{
+    margin-top: 30px;
+}
+.header__content{
+    display: flex;
+
+}
+
+.header__logo{
+    width: 180px;
+    height: 38px;
+}
+
+
+.header__content-mail,.header__content-tel{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.header__content-mail{
+    padding-right: 20px;
+}
+
+.header__connect{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 3;
+}
+.header__text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header__contact{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--header-text);
+}
+
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding-top: 15px;
+    border-top: 0.5px solid black;
+    border-radius: 2px;
+}
